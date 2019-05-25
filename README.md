@@ -72,3 +72,6 @@ export ZEPPELIN_INTERPRETER_OUTPUT_LIMIT=2048000
 4. click `save` and the interpreter will restart with your updated settings.
 
 [Zeppelin Spark Doc](https://zeppelin.apache.org/docs/0.8.1/interpreter/spark.html)
+
+#### Note to Self
+It is possible for localhost alias to be broken on your computer due to firewall issues. If `etc/hosts` is pointing localhost to 127.0.0.1 you are golden. Sometimes VPN makes things not work - you can use `127.0.0.1:8080` for the zeppelin UI if localhost bindings are somehow hosed.
